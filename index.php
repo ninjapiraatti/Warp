@@ -11,25 +11,6 @@
 							</svg>-->
 
 
-							<!--<?php if( have_rows('sections') ): ?>
-					
-
-							    <?php while ( have_rows('sections') ) : the_row(); ?>
-
-								<section class="cf main-section <?php the_sub_field('style'); ?> <?php the_sub_field('extra_class'); ?>" id="<?php the_sub_field('extra-id'); ?>">
-									<div class="content wrap">
-										<div><?php the_sub_field('content'); ?></div>
-									</div>
-								</section>
-
-
-							    <?php endwhile; ?>
-
-								<?php else : ?>
-								
-									
-							<?php endif; ?>-->
-
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
@@ -90,6 +71,27 @@
 				</div>
 
 			</section>
+
+			<?php /* We use Advanced Custom Fields here and its addons Repeater and Options. Uncomment to use. */ ?>
+
+			<?php if( have_rows('section') ): ?>
+					
+
+				<?php while ( have_rows('section') ) : the_row(); ?>
+
+					<section class="cf main-section <?php the_sub_field('section-style'); ?>" id="<?php the_sub_field('section-id'); ?>">
+						<div class="content wrap">
+							div><?php the_sub_field('section-content'); ?></div>
+							</div>
+					</section>
+
+
+				<?php endwhile; ?>
+
+			<?php else : ?>
+								
+									
+			<?php endif; ?>
 
 
 <?php get_footer(); ?>

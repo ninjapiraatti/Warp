@@ -41,7 +41,7 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-		<?php include_once(ABSPATH . 'wp-content/themes/bones/library/icons/svg-defs.svg');?>
+		<?php include_once(ABSPATH . 'wp-content/themes/Warp/library/icons/svg-defs.svg');?>
 
 		<div id="container">
 
