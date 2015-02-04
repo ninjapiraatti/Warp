@@ -58,6 +58,7 @@ body {
 /* HEADER */
 
 .logo{
+	height: 80px;
 	float: left;
 	img{
 		width: 80px;
@@ -223,6 +224,13 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
+
+#main-header, #mobile-header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+}
 
 .nav {
 	border-bottom: 0;
@@ -953,7 +961,6 @@ FOOTER STYLES
     height: 100%;
     top: 0;
     z-index: 9999;
-    background: #333332;
     font-size: 0.9em;
     font-weight: bold;
     -webkit-box-shadow: inset -10px 0 6px -9px rgba(0, 0, 0, .7);
