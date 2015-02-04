@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+
 			<section class="main-section">
 
 				<div class="content wrap cf">
@@ -72,7 +73,7 @@
 
 			</section>
 
-			<?php /* We use Advanced Custom Fields here and its addons Repeater and Options. Uncomment to use. */ ?>
+			<?php /* We use Advanced Custom Fields here and its addons Repeater and Options. To use, import plugins and uncomment the next lines. */ ?>
 
 			<?php if( have_rows('section') ): ?>
 					
