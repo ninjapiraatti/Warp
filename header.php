@@ -94,8 +94,4 @@
 
 		</header>
 
-		<div class="main-section" id="hero" style="background-image: url(<?php the_field('options-header-image', 'options') ?>);">
-			
-		</div>
 
-		<div id="container">

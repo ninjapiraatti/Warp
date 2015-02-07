@@ -8,7 +8,9 @@ License URI: http://sam.zoy.org/wtfpl/
 
 ## Thanks to:
 
+Pushy by christophery: https://github.com/christophery/pushy
 Eddie Machado
+www.subtlepatterns.com
 Everyone who contributed to Bones
 
 ### Submit Bugs & or Fixes:

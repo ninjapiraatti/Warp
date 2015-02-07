@@ -1,11 +1,15 @@
 <?php get_header(); ?>
+		<div class="main-section" id="hero" style="background-image: url(<?php the_field('options-header-image', 'options') ?>);">
+			
+		</div>
 
+		<div id="container">
 
 			<section class="main-section">
 
 				<div class="content wrap cf">
 
-						<div class="m-all t-2of3 d-5of7 cf" role="main">
+						<div role="main">
 
 							<!--<svg viewBox="0 0 128 128" class="icon">
 				  				<use xlink:href="#icon-twitter"></use>
@@ -67,7 +71,7 @@
 
 						</div>
 
-					<?php get_sidebar(); ?>
+					<?php /* get_sidebar();  Warp doesn't use sidebars in page templates. Uncomment to use. */?>
 
 				</div>
 
@@ -93,6 +97,8 @@
 								
 									
 			<?php endif; ?>
+
+		</div>
 
 
 <?php get_footer(); ?>

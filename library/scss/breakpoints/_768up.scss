@@ -28,10 +28,15 @@ come into play. Have fun!
 }
 
 #hero{
-	display: block;
 	height: 500px;
-	background-size: cover;
-	background-position: center center;
+}
+
+.container-push, .push-push{
+    -webkit-transform: translate3d(0px,0,0);
+    -moz-transform: translate3d(0px,0,0);
+    -ms-transform: translate3d(0px,0,0);
+    -o-transform: translate3d(0px,0,0);
+    transform: translate3d(0px,0,0);
 }
 
 /*********************
@@ -54,13 +59,19 @@ HEADER STYLES
 
 .logo{
 	padding: 0px 10px;
-	background-color: #fff;
 }
 
 /*********************
 NAVIGATION STYLES
 *********************/
 
+#main-header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+}
 
 .nav {
 	border: 0;
@@ -73,7 +84,6 @@ NAVIGATION STYLES
 		position: relative;
 
 		a {
-			border-bottom: 0;
 			padding: 30px 20px 20px 20px;
 
 			/*
@@ -82,8 +92,7 @@ NAVIGATION STYLES
 			*/
 			&:hover, &:focus {
 				color: $white;
-				text-decoration: underline;
-				background-color: #ddd;
+				background-color: $black;
 			}
 		}
 
@@ -96,8 +105,6 @@ NAVIGATION STYLES
 		ul.sub-menu,
 		ul.children {
 			margin-top: 0;
-			border: 1px solid #ccc;
-			border-top: 0;
 			position: absolute;
 			visibility: hidden;
 			z-index: 8999;
@@ -105,14 +112,14 @@ NAVIGATION STYLES
 			li {
 
 				a {
-					padding-left: 10px;
-					border-right: 0;
 					display: block;
 					width: 180px;
-					border-bottom: 1px solid #ccc;
+					height: auto;
 
 					&:hover,
-					&:focus {}
+					&:focus {
+						background-color: #111;
+					}
 
 					&:link {}
 				}
@@ -122,7 +129,6 @@ NAVIGATION STYLES
 				&:last-child {
 
 					a {
-						border-bottom: 0;
 					}
 				}
 
@@ -172,7 +178,7 @@ SIDEBARS & ASIDES
 
 	.widgettitle {
 		border-bottom: 2px solid #444;
-		margin-bottom: 0.75em;
+		margin-bottom: $mapaS;
 	}
 
 	.widget {
@@ -181,7 +187,7 @@ SIDEBARS & ASIDES
 
 		ul {
 			li {
-				margin-bottom: 0.75em;
+				margin-bottom: $mapaS;
 
 				&:first-child {}
 				&:last-child {}
@@ -189,7 +195,7 @@ SIDEBARS & ASIDES
 				/* deep nesting */
 
 				ul {
-					margin-top: 0.75em;
+					margin-top: $mapaS;
 					padding-left: 1em;
 				}
 			}

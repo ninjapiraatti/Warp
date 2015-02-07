@@ -22,13 +22,10 @@ $alert-red:         #fbe3e4;
 $alert-green:       #e6efc2;
 $alert-blue:        #d5edf8;
 
-$black:             #323944;
+$black:             #000;
 $white:             #fff;
 
-$light-gray:        #f8f9fa;
-$gray:              #eaedf2;
 $text-color:        #5c6b80;
-$meta-gray:         #9fa6b4;
 
 $tan:               #eceee5;
 
@@ -36,6 +33,7 @@ $green:             #7dd667;
 
 $bones-pink:        #f01d4f;
 $blue:              #2980b9;
+$theme-color: #ED7979;
 
 $link-color:        $bones-pink;
 $link-hover:        darken($link-color, 9%);
@@ -43,9 +41,10 @@ $link-hover:        darken($link-color, 9%);
 $border-color:      #ccc;
 $disabled-gray:     #cfcfcf;
 
-$mapaL: 60px;
-$mapaM: 40px;
-$mapaS: 20px;
+$mapaXL: 80px;
+$mapaL: 40px;
+$mapaM: 20px;
+$mapaS: 10px;
 
 /*
 Here's a great tutorial on how to
