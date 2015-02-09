@@ -20,7 +20,8 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-  -webkit-font-smoothing: antialiased;
+  	-webkit-font-smoothing: antialiased;
+  	background-color: $light-gray;
 }
 
 /* ICONS */
@@ -99,7 +100,7 @@ body {
 /* MAIN SECTIONS */
 
 .main-section{
-	background-color: #fff;
+	background-color: $light-gray;
 	padding: $mapaL 0;
 }
 
@@ -115,6 +116,52 @@ body {
 
 .section-style-3{
 	
+}
+
+/* ARTICLE ITEMS */
+
+.item{
+	padding: $mapaS;
+}
+
+.card{
+	background-color: #fff;
+	border-radius: 4px;
+	overflow: hidden;
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+	img{
+		width: 100%;
+		height: auto;
+	}
+	header, section, footer{
+		padding: 0 10px;
+	}
+	header{
+		border-bottom: 1px dotted #cbcbcb;
+		padding: 0px 10px 10px 10px;
+	}
+	h1{
+		font-size: 1.1rem;
+		line-height: 1.1;
+		margin: 10px 0px 0px 0px;
+	}
+	.byline{
+		font-size: 0.65rem;
+		color: #939393;
+		font-style: normal;
+		text-transform: uppercase;
+		margin: 4px 0px;
+
+	}
+	section, footer{
+		font-size: 0.9rem;
+		line-height: 1.3;
+		margin: 10px 0;
+	}
+	.entry-content p{
+		margin: 0;
+	}
+
 }
 /********************
 WORDPRESS BODY CLASSES
@@ -372,7 +419,6 @@ POSTS & CONTENT STYLES
 }
 
 		.hentry {
-			background-color: $white;
 			border-radius: 3px;
 			margin-bottom: $mapaM;
 

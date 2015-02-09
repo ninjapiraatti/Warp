@@ -96,6 +96,11 @@ NAVIGATION STYLES
 			}
 		}
 
+		&:hover, &:focus {
+			color: $white;
+			background-color: $black;
+		}
+
 		&:first-child {}
 		&:last-child {}
 
@@ -147,7 +152,9 @@ NAVIGATION STYLES
 			li.current-menu-item,
 			li.current_page_item,
 			li.current_page_ancestor {
-				a {}
+				a {
+					background-color: #111;
+				}
 			}
 		}
 
