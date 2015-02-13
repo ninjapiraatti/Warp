@@ -49,7 +49,7 @@ body {
 	right: 0px;
 	top: 28px;
 	z-index: 2;
-	fill: #000;
+	fill: $white;
 	&:hover{
 		fill: $theme-color;
 	}
@@ -61,8 +61,12 @@ body {
 	height: 80px;
 	float: left;
 	background-color: #fff;
+	@include transition(background-color 0.2s ease-in-out);
 	img{
 		width: 80px;
+	}
+	&:hover{
+		background-color: $theme-color;
 	}
 }
 
@@ -72,7 +76,18 @@ body {
 	}
 }
 
-#hero{
+.header-narrow{
+	height: 100px;
+}
+
+.header-hero{
+	height: 200px;
+}
+
+.header-hero, .header-narrow{
+	.wrap{
+		margin-top: 100px;
+	}
 	display: block;
 	background-size: cover;
 	background-position: center center;
@@ -122,6 +137,10 @@ body {
 
 .item{
 	padding: $mapaS;
+}
+
+.wrap-link{
+	text-decoration: none;
 }
 
 .card{
@@ -307,15 +326,12 @@ HEADER STYLES
 
 .header {
 	background-color: $black;
+	.logo {
+		display: none;
+	}
 }
 
-	#logo {
-		margin: $mapaS 0;
 
-		a {
-			color: $white;
-		}
-	}
 
 /*********************
 NAVIGATION STYLES
@@ -340,7 +356,6 @@ and more scalable.
 .nav {
 	border-bottom: 0;
 	margin: 0;
-	float: right;
 
 	li {
 
@@ -349,7 +364,6 @@ and more scalable.
 			color: $white;
 			text-decoration: none;
 			padding: $mapaS;
-			height: 80px;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
@@ -670,10 +684,10 @@ PAGE NAVI STYLES
       padding: $mapaS;
       min-width: 1em;
       display: block;
-      color: $blue;
+      color: $link-color;
 
       &:hover, &:focus {
-      	background-color: $blue;
+      	background-color: $link-color;
       	color: $white;
       }
     }
@@ -1032,9 +1046,9 @@ FOOTER STYLES
 
 .pushy{
     position: fixed;
-    width: 200px;
+    width: 320px;
     height: 100%;
-    top: 0;
+    top: 80px;
     z-index: 9999;
     font-size: 0.9em;
     font-weight: bold;
@@ -1048,11 +1062,11 @@ FOOTER STYLES
 /* Menu Movement */
 
 .pushy-left{
-    -webkit-transform: translate3d(-200px,0,0);
-    -moz-transform: translate3d(-200px,0,0);
-    -ms-transform: translate3d(-200px,0,0);
-    -o-transform: translate3d(-200px,0,0);
-    transform: translate3d(-200px,0,0);
+    -webkit-transform: translate3d(-320px,0,0);
+    -moz-transform: translate3d(-320px,0,0);
+    -ms-transform: translate3d(-320px,0,0);
+    -o-transform: translate3d(-320px,0,0);
+    transform: translate3d(-320px,0,0);
 }
 
 .pushy-open{
@@ -1064,11 +1078,11 @@ FOOTER STYLES
 }
 
 .container-push, .push-push{
-    -webkit-transform: translate3d(200px,0,0);
-    -moz-transform: translate3d(200px,0,0);
-    -ms-transform: translate3d(200px,0,0);
-    -o-transform: translate3d(200px,0,0);
-    transform: translate3d(200px,0,0);
+    -webkit-transform: translate3d(320px,0,0);
+    -moz-transform: translate3d(320px,0,0);
+    -ms-transform: translate3d(320px,0,0);
+    -o-transform: translate3d(320px,0,0);
+    transform: translate3d(320px,0,0);
 }
 
 /* Menu Transitions */

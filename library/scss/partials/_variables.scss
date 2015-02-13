@@ -24,22 +24,16 @@ $alert-blue:        #d5edf8;
 
 $black:             #000;
 $white:             #fff;
-$light-gray: #f4f4f4;
+$light-gray:        #f4f4f4;
+$gray:              #ccc;
 
 $text-color:        #444;
 
-$tan:               #eceee5;
+$theme-color:       #ED7979;
 
-$green:             #7dd667;
-
-$bones-pink:        #f01d4f;
-$blue:              #2980b9;
-$theme-color: #ED7979;
-
-$link-color:        $bones-pink;
+$link-color:        $theme-color;
 $link-hover:        darken($link-color, 9%);
 
-$border-color:      #ccc;
 $disabled-gray:     #cfcfcf;
 
 $mapaXL: 80px;

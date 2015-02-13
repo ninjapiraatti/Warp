@@ -114,7 +114,7 @@ body#tinymce.wp-editor {
 			caption {
 				margin: 0 0 7px;
 				font-size: 0.75em;
-				color: $meta-gray;
+				color: $gray;
 				text-transform: uppercase;
 				letter-spacing: 1px;
 			}
@@ -149,9 +149,8 @@ body#tinymce.wp-editor {
 		blockquote {
 			margin: 0 0 1.5em 0.75em;
 			padding: 0 0 0 0.75em;
-			border-left: 3px solid $blue;
+			border-left: 3px solid $gray;
 			font-style: italic;
-			color: $meta-gray;
 
 			&:before {}
 

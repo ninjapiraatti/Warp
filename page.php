@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-		<div class="main-section <?php the_field('header-type') ?>" id="hero" style="background-image: url(<?php the_field('header-image') ?>);">
+		<div class="main-section <?php the_field('header-type') ?>" style="background-image: url(<?php the_field('header-image') ?>);">
 			
 			<?php /* If you're not using ACF, you can just remove the div below entirely */ ?>
 			<div class="wrap <?php the_field('header-colors'); ?>">
@@ -68,7 +68,7 @@
 
 						</footer>
 
-						<?php /* comments_template(); Comments are removed in page template. Uncomment to enable. */?>
+						<?php /* comments_template(); Comments are removed from page template. Uncomment to enable. */?>
 
 					</article>
 

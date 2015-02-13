@@ -1,20 +1,22 @@
 <?php get_header(); ?>
-		<div class="main-section" id="hero" style="background-image: url(<?php the_field('options-header-image', 'options') ?>);">
-			<?php if ( get_field( 'options-index-heading', 'options' ) ): ?>
+		<div class="main-section header-hero" style="background-image: url(<?php the_field('options-header-image', 'options') ?>);">
+			<div class="wrap">
+				<?php if ( get_field( 'options-index-heading', 'options' ) ): ?>
 
-				<h1 class="page-title light" itemprop="headline"><?php the_field('options-index-heading', 'options'); ?></h1>
+					<h1 class="page-title light" itemprop="headline"><?php the_field('options-index-heading', 'options'); ?></h1>
 
-			<?php else: ?>
+				<?php else: ?>
 
-			<?php endif; ?>
+				<?php endif; ?>
 
-			<?php if ( get_field( 'options-index-description', 'options' ) ): ?>
+				<?php if ( get_field( 'options-index-description', 'options' ) ): ?>
 
-				<p class="page-excerpt light"><?php the_field('options-index-description', 'options'); ?></p>
+					<p class="page-excerpt light"><?php the_field('options-index-description', 'options'); ?></p>
 
-			<?php else: ?>
+				<?php else: ?>
 
-			<?php endif; ?>
+				<?php endif; ?>
+			</div>
 		</div>
 
 		<div id="container">
