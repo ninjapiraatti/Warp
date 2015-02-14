@@ -52,6 +52,7 @@ body {
 	fill: $white;
 	&:hover{
 		fill: $theme-color;
+		cursor: pointer;
 	}
 }
 
@@ -146,11 +147,16 @@ body {
 .card{
 	background-color: #fff;
 	border-radius: 4px;
-	overflow: hidden;
+	//overflow: hidden; Causes a bug with CSS filters on webkit if turned on
 	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 	img{
 		width: 100%;
 		height: auto;
+		-webkit-filter: saturate(20%);
+		@include transition(all 0.2s ease-in-out);
+		&:hover{
+			-webkit-filter: saturate(100%);
+		}
 	}
 	header, section, footer{
 		padding: 0 10px;
@@ -332,7 +338,6 @@ HEADER STYLES
 }
 
 
-
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -372,7 +377,8 @@ and more scalable.
 			keep this file as small as possible!
 			*/
 			&:hover, &:focus {
-
+				color: $link-color;
+				background-color: lighten($black, 20%);
 			}
 		}
 
@@ -1075,6 +1081,9 @@ FOOTER STYLES
     -ms-transform: translate3d(0,0,0);
     -o-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+    #inner-header{
+    	width: 100%;
+    }
 }
 
 .container-push, .push-push{

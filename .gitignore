@@ -59,3 +59,5 @@ temp/
 
 *.codekit
 *.scssc
+warp.sublime-workspace
+*.sublime-workspace
