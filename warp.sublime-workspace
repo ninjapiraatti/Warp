@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"the",
+				"theme-color"
+			],
+			[
+				"he",
+				"header-narrow"
+			],
+			[
+				"header",
+				"header-hero"
+			],
+			[
+				"light",
+				"light-gray"
+			],
+			[
+				"entry",
+				"entry-content"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"mobe",
+				"mobile-header"
+			],
+			[
 				"calc",
 				"calculator_section"
 			],
@@ -72,18 +104,34 @@
 	"buffers":
 	[
 		{
-			"file": "functions.php",
+			"file": "library/scss/breakpoints/_base.scss",
 			"settings":
 			{
-				"buffer_size": 11065,
+				"buffer_size": 19204,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "library/js/scripts.js",
+			"file": "library/scss/breakpoints/_481up.scss",
 			"settings":
 			{
-				"buffer_size": 4264,
+				"buffer_size": 2226,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/scss/breakpoints/_768up.scss",
+			"settings":
+			{
+				"buffer_size": 5750,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/scss/breakpoints/_1030up.scss",
+			"settings":
+			{
+				"buffer_size": 612,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,23 +139,7 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 3450,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "TUOPIN_BONES_README.txt",
-			"settings":
-			{
-				"buffer_size": 1607,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "library/scss/style.scss",
-			"settings":
-			{
-				"buffer_size": 4288,
+				"buffer_size": 4304,
 				"line_ending": "Unix"
 			}
 		},
@@ -115,15 +147,15 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 2986,
+				"buffer_size": 2486,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "library/scss/partials/_grid.scss",
+			"file": "page.php",
 			"settings":
 			{
-				"buffer_size": 7486,
+				"buffer_size": 3797,
 				"line_ending": "Unix"
 			}
 		},
@@ -131,31 +163,23 @@
 			"file": "library/scss/partials/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 1215,
+				"buffer_size": 1078,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "library/scss/breakpoints/_base.scss",
+			"file": "library/scss/modules/_buttons.scss",
 			"settings":
 			{
-				"buffer_size": 15299,
+				"buffer_size": 1726,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "library/scss/config.rb",
+			"file": "post-formats/format-index-card.php",
 			"settings":
 			{
-				"buffer_size": 953,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "footer.php",
-			"settings":
-			{
-				"buffer_size": 1369,
+				"buffer_size": 1356,
 				"line_ending": "Unix"
 			}
 		}
@@ -224,6 +248,29 @@
 	},
 	"file_history":
 	[
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/library/scss/editor-style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/library/js/masonry.pkgd.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/post-formats/format-index-card.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/single.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/library/scss/partials/_extras.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/CHANGELOG.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/library/js/scripts.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/library/scss/partials/_variables.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/library/scss/breakpoints/_base.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/library/js/masonry.pckd.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/readme.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/library/scss/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/library/icons/svg-defs.svg",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/library/scss/modules/_forms.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/library/scss/config.rb",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/library/scss/partials/_grid.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/library/scss/partials/_typography.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/pushy-master/css/pushy.css",
+		"/Users/tuoppi/Dropbox/Stereoscape/NETTISIVUT/wp-content/themes/Stereoscape/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/TUOPIN_BONES_README.txt",
 		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/library/scss/slush.scss",
 		"/D/projektit/Bones/library/scss/config.rb",
 		"/D/SERVERI/htdocs/Projektit/Stereoscape/carhartl-jquery-cookie-v1.4.1-0-g7f88a4e/carhartl-jquery-cookie-92b7715/jquery.cookie.js",
@@ -328,30 +375,7 @@
 		"/D/projektit/PlanetoidiMKX/WORDPRESS/header.php",
 		"/D/projektit/PlanetoidiMKX/WORDPRESS/footer.php",
 		"/D/projektit/PlanetoidiMKX/NETTISIVUT/index.php",
-		"/D/projektit/Fit24/NETTISIVUT/library/scss/style.scss",
-		"/D/projektit/Fit24/NETTISIVUT/library/scss/_base.scss",
-		"/D/projektit/Fit24/NETTISIVUT/library/scss/_mixins.scss",
-		"/D/projektit/Fit24/NETTISIVUT/library/scss/_1030up.scss",
-		"/D/projektit/Fit24/NETTISIVUT/library/scss/_481up.scss",
-		"/D/projektit/Vuokrahuone/NETTISIVUT/page-custom.php",
-		"/D/projektit/Vuokrahuone/NETTISIVUT/page-custom_en.php",
-		"/D/projektit/Arkkitehdit.org - Uusi/NETTISIVUT/temp.scss",
-		"/D/projektit/Arkkitehdit.org - Uusi/NETTISIVUT/index.html",
-		"/D/projektit/Redtail Games/NETTISIVUT/library/css/style.css",
-		"/D/projektit/Arkkitehdit.org - Uusi/initializr-verekia-4.0/initializr/css/main.css",
-		"/D/projektit/Arkkitehdit.org - Uusi/initializr-verekia-4.0/initializr/index.html",
-		"/D/projektit/Arkkitehdit.org - Uusi/NETTISIVUT/temp.css",
-		"/C/Users/Omistaja/AppData/Roaming/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
-		"/D/projektit/Active Ark - Varma/Tyotilat2/js/scripts2.js",
-		"/D/projektit/Active Ark - Varma/Tyotilat2/style.scss",
-		"/D/projektit/Active Ark - Varma/Tyotilat2/index.html",
-		"/D/projektit/Gemina/NETTISIVUT/woocommerce_sale_products.php",
-		"/D/temp/_Siirto Rackspacesta/Tilitehdas/wp-includes/post.php",
-		"/D/temp/_Siirto Rackspacesta/Tilitehdas/wp-config.php",
-		"/D/temp/_Siirto Rackspacesta/Tilitehdas/index.php",
-		"/D/temp/_Siirto Rackspacesta/Tilitehdas/.htaccess",
-		"/D/temp/_Siirto Rackspacesta/Tonavankutsu/config.core.php",
-		"/D/temp/_Siirto Rackspacesta/Tonavankutsu/core/config/config.inc.php"
+		"/D/projektit/Fit24/NETTISIVUT/library/scss/style.scss"
 	],
 	"find":
 	{
@@ -371,6 +395,29 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"logo",
+			"nav li a",
+			"200px",
+			"logo",
+			"blue",
+			"light",
+			"hentry",
+			"hero",
+			"header-narr",
+			"hentry",
+			"article-header",
+			"padding",
+			"hentry",
+			"200",
+			"1.5em",
+			"0.75em",
+			"gray",
+			"border",
+			"children",
+			"pushy",
+			"container",
+			"real",
+			"-200px",
 			"timeToWaitForLast",
 			"removed",
 			"caption",
@@ -475,30 +522,7 @@
 			"});\n        </script>",
 			"});",
 			"//stops page from reloading on link click",
-			"});",
-			"<script>",
-			"</script>",
-			".button",
-			"työhyvinvointipeili",
-			"pika",
-			"booking",
-			"booking h2",
-			"-wrapper",
-			"color",
-			"4em",
-			"header",
-			"script",
-			"firefox",
-			"home",
-			"html",
-			"em",
-			"library",
-			"white",
-			"bones-blue",
-			"font-name",
-			"ainei",
-			"box_submi",
-			"360"
+			"});"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -506,6 +530,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$mapaM",
+			"$mapaS"
 		],
 		"reverse": true,
 		"show_context": true,
@@ -516,71 +542,42 @@
 	"groups":
 	[
 		{
-			"selected": 10,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "functions.php",
+					"file": "library/scss/breakpoints/_base.scss",
 					"settings":
 					{
-						"buffer_size": 11065,
+						"buffer_size": 19204,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3538,
-								3538
+								1958,
+								1958
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 570.0,
+						"translation.y": 1810.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "library/js/scripts.js",
+					"file": "library/scss/breakpoints/_481up.scss",
 					"settings":
 					{
-						"buffer_size": 4264,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2057,
-								2057
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 969.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "header.php",
-					"settings":
-					{
-						"buffer_size": 3450,
+						"buffer_size": 2226,
 						"regions":
 						{
 						},
@@ -593,54 +590,29 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 171.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "TUOPIN_BONES_README.txt",
+					"buffer": 2,
+					"file": "library/scss/breakpoints/_768up.scss",
 					"settings":
 					{
-						"buffer_size": 1607,
+						"buffer_size": 5750,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								724,
-								724
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "library/scss/style.scss",
-					"settings":
-					{
-						"buffer_size": 4288,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3966,
-								3966
+								849,
+								849
 							]
 						],
 						"settings":
@@ -649,7 +621,60 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1710.0,
+						"translation.y": 415.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "library/scss/breakpoints/_1030up.scss",
+					"settings":
+					{
+						"buffer_size": 612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 4304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								461,
+								461
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -659,15 +684,15 @@
 					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 2986,
+						"buffer_size": 2486,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								83,
-								83
+								616,
+								616
 							]
 						],
 						"settings":
@@ -683,25 +708,24 @@
 				},
 				{
 					"buffer": 6,
-					"file": "library/scss/partials/_grid.scss",
+					"file": "page.php",
 					"settings":
 					{
-						"buffer_size": 7486,
+						"buffer_size": 3797,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1054,
-								1054
+								1941,
+								1941
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -714,15 +738,15 @@
 					"file": "library/scss/partials/_variables.scss",
 					"settings":
 					{
-						"buffer_size": 1215,
+						"buffer_size": 1078,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1099,
-								1099
+								737,
+								737
 							]
 						],
 						"settings":
@@ -730,83 +754,68 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 114.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "library/scss/breakpoints/_base.scss",
+					"file": "library/scss/modules/_buttons.scss",
 					"settings":
 					{
-						"buffer_size": 15299,
+						"buffer_size": 1726,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								680,
-								651
+								1533,
+								1533
+							],
+							[
+								1600,
+								1600
+							],
+							[
+								1679,
+								1679
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 453.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 9,
-					"file": "library/scss/config.rb",
+					"file": "post-formats/format-index-card.php",
 					"settings":
 					{
-						"buffer_size": 953,
+						"buffer_size": 1356,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								953,
-								0
+								1317,
+								1317
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "footer.php",
-					"settings":
-					{
-						"buffer_size": 1369,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1228,
-								1220
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -850,7 +859,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 117.0
+		"height": 74.0
 	},
 	"output.sftp":
 	{
@@ -858,7 +867,7 @@
 	},
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": false,
 	"select_file":
