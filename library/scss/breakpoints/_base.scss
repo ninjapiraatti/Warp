@@ -22,6 +22,10 @@ body {
 	color: $text-color;
   	-webkit-font-smoothing: antialiased;
   	background-color: $light-gray;
+  	//For sticky footer
+  	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
 }
 
 /* ICONS */
@@ -118,6 +122,8 @@ body {
 .main-section{
 	background-color: $light-gray;
 	padding: $mapaL 0;
+	//For sticky footer
+	flex: 1;
 }
 
 .section-style-1{
