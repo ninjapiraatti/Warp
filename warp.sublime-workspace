@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"link",
+				"link-color"
+			],
+			[
 				"calc",
 				"calculator_section"
 			],
@@ -72,91 +76,11 @@
 	"buffers":
 	[
 		{
-			"file": "functions.php",
-			"settings":
-			{
-				"buffer_size": 11065,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "library/js/scripts.js",
-			"settings":
-			{
-				"buffer_size": 4264,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "header.php",
-			"settings":
-			{
-				"buffer_size": 3450,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "TUOPIN_BONES_README.txt",
-			"settings":
-			{
-				"buffer_size": 1607,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "library/scss/style.scss",
-			"settings":
-			{
-				"buffer_size": 4288,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 2986,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "library/scss/partials/_grid.scss",
-			"settings":
-			{
-				"buffer_size": 7486,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "library/scss/partials/_variables.scss",
-			"settings":
-			{
-				"buffer_size": 1215,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "library/scss/breakpoints/_base.scss",
 			"settings":
 			{
-				"buffer_size": 15299,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "library/scss/config.rb",
-			"settings":
-			{
-				"buffer_size": 953,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "footer.php",
-			"settings":
-			{
-				"buffer_size": 1369,
-				"line_ending": "Unix"
+				"buffer_size": 19204,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -224,6 +148,19 @@
 	},
 	"file_history":
 	[
+		"/D/SERVERI/htdocs/Projektit/Warp/wp-content/themes/Warp/functions.php",
+		"/D/SERVERI/htdocs/Projektit/Warp/wp-content/themes/Warp/library/js/scripts.js",
+		"/D/SERVERI/htdocs/Projektit/Warp/wp-content/themes/Warp/header.php",
+		"/D/SERVERI/htdocs/Projektit/Warp/wp-content/themes/Warp/TUOPIN_BONES_README.txt",
+		"/D/SERVERI/htdocs/Projektit/Warp/wp-content/themes/Warp/library/scss/style.scss",
+		"/D/SERVERI/htdocs/Projektit/Warp/wp-content/themes/Warp/index.php",
+		"/D/SERVERI/htdocs/Projektit/Warp/wp-content/themes/Warp/library/scss/partials/_grid.scss",
+		"/D/SERVERI/htdocs/Projektit/Warp/wp-content/themes/Warp/library/scss/partials/_variables.scss",
+		"/D/SERVERI/htdocs/Projektit/Warp/wp-content/themes/Warp/library/scss/breakpoints/_base.scss",
+		"/D/SERVERI/htdocs/Projektit/Warp/wp-content/themes/Warp/library/scss/config.rb",
+		"/D/SERVERI/htdocs/Projektit/Warp/wp-content/themes/Warp/footer.php",
+		"/D/SERVERI/htdocs/Projektit/Warp/wp-config.php",
+		"/D/SERVERI/htdocs/Projektit/Warp/wp-content/themes/Warp/.gitignore",
 		"/Applications/XAMPP/xamppfiles/htdocs/projektit/Warp/wp-content/themes/Warp/library/scss/slush.scss",
 		"/D/projektit/Bones/library/scss/config.rb",
 		"/D/SERVERI/htdocs/Projektit/Stereoscape/carhartl-jquery-cookie-v1.4.1-0-g7f88a4e/carhartl-jquery-cookie-92b7715/jquery.cookie.js",
@@ -338,20 +275,7 @@
 		"/D/projektit/Arkkitehdit.org - Uusi/NETTISIVUT/temp.scss",
 		"/D/projektit/Arkkitehdit.org - Uusi/NETTISIVUT/index.html",
 		"/D/projektit/Redtail Games/NETTISIVUT/library/css/style.css",
-		"/D/projektit/Arkkitehdit.org - Uusi/initializr-verekia-4.0/initializr/css/main.css",
-		"/D/projektit/Arkkitehdit.org - Uusi/initializr-verekia-4.0/initializr/index.html",
-		"/D/projektit/Arkkitehdit.org - Uusi/NETTISIVUT/temp.css",
-		"/C/Users/Omistaja/AppData/Roaming/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
-		"/D/projektit/Active Ark - Varma/Tyotilat2/js/scripts2.js",
-		"/D/projektit/Active Ark - Varma/Tyotilat2/style.scss",
-		"/D/projektit/Active Ark - Varma/Tyotilat2/index.html",
-		"/D/projektit/Gemina/NETTISIVUT/woocommerce_sale_products.php",
-		"/D/temp/_Siirto Rackspacesta/Tilitehdas/wp-includes/post.php",
-		"/D/temp/_Siirto Rackspacesta/Tilitehdas/wp-config.php",
-		"/D/temp/_Siirto Rackspacesta/Tilitehdas/index.php",
-		"/D/temp/_Siirto Rackspacesta/Tilitehdas/.htaccess",
-		"/D/temp/_Siirto Rackspacesta/Tonavankutsu/config.core.php",
-		"/D/temp/_Siirto Rackspacesta/Tonavankutsu/core/config/config.inc.php"
+		"/D/projektit/Arkkitehdit.org - Uusi/initializr-verekia-4.0/initializr/css/main.css"
 	],
 	"find":
 	{
@@ -371,6 +295,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"card",
+			"inner",
+			"inner-header",
 			"timeToWaitForLast",
 			"removed",
 			"caption",
@@ -495,10 +422,7 @@
 			"library",
 			"white",
 			"bones-blue",
-			"font-name",
-			"ainei",
-			"box_submi",
-			"360"
+			"font-name"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -516,239 +440,23 @@
 	"groups":
 	[
 		{
-			"selected": 10,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "functions.php",
-					"settings":
-					{
-						"buffer_size": 11065,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3538,
-								3538
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 570.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "library/js/scripts.js",
-					"settings":
-					{
-						"buffer_size": 4264,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2057,
-								2057
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 969.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "header.php",
-					"settings":
-					{
-						"buffer_size": 3450,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "TUOPIN_BONES_README.txt",
-					"settings":
-					{
-						"buffer_size": 1607,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								724,
-								724
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "library/scss/style.scss",
-					"settings":
-					{
-						"buffer_size": 4288,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3966,
-								3966
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1710.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "index.php",
-					"settings":
-					{
-						"buffer_size": 2986,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								83,
-								83
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "library/scss/partials/_grid.scss",
-					"settings":
-					{
-						"buffer_size": 7486,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1054,
-								1054
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "library/scss/partials/_variables.scss",
-					"settings":
-					{
-						"buffer_size": 1215,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1099,
-								1099
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 114.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
 					"file": "library/scss/breakpoints/_base.scss",
 					"settings":
 					{
-						"buffer_size": 15299,
+						"buffer_size": 19204,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								680,
-								651
+								2014,
+								2014
 							]
 						],
 						"settings":
@@ -757,59 +465,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "library/scss/config.rb",
-					"settings":
-					{
-						"buffer_size": 953,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								953,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "footer.php",
-					"settings":
-					{
-						"buffer_size": 1369,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1228,
-								1220
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2633.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
