@@ -30,11 +30,9 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   font-family: $sans-serif;
   text-decoration: none;
   color: $white;
-  font-size: 0.9em;
-  font-size: 34px;
-  line-height: 34px;
+  font-size: 1rem;
   font-weight: normal;
-  padding: 0 24px;
+  padding: 10px 20px;
   border-radius: 4px;
   border: 0;
   cursor: pointer;
@@ -53,6 +51,9 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
 
 } // end .button
 
+input[type="submit"]{
+  @extend %btn;
+}
 /*
 An example button.
 You can use this example if you want. Just replace all the variables

@@ -1,5 +1,28 @@
 <?php get_header(); ?>
 
+		<div class="main-section <?php the_field('header-type') ?>" style="background-image: url(<?php the_field('header-image') ?>);">
+			
+			<?php /* If you're not using ACF, you can just remove the div below entirely */ ?>
+			<div class="wrap <?php the_field('header-colors'); ?>">
+				<?php if ( get_field( 'header-heading' ) ): ?>
+
+					<h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
+
+				<?php else: ?>
+
+				<?php endif; ?>
+
+				<?php if ( get_field( 'header-excerpt' ) ): ?>
+
+					<p class="page-excerpt"><?php the_field('header-description'); ?></p>
+
+				<?php else: ?>
+
+				<?php endif; ?>
+			</div>			
+			
+		</div>
+
 			<div id="content">
 
 				<div id="inner-content" class="wrap cf">

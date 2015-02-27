@@ -8,7 +8,7 @@ just edit things like thumbnail sizes, header images,
 sidebars, comments, ect.
 */
 
-//Omien rivien perässä TUOPPI
+
 
 // LOAD BONES CORE (if you remove this, the theme will break)
 require_once( 'library/bones.php' );
@@ -77,7 +77,7 @@ if ( ! isset( $content_width ) ) {
 // Thumbnail sizes
 add_image_size( 'bones-thumb-600', 600, 150, true );
 add_image_size( 'bones-thumb-300', 300, 100, true );
-add_image_size( 'custom-thumb', 600, 400, true ); // TUOPPI - hyvä koko isotopeille yms
+add_image_size( 'custom-thumb', 600, 400, true ); // Good size for isotopes and stuff like that
 
 /*
 to add more sizes, simply copy a line from above
@@ -105,7 +105,7 @@ function bones_custom_image_sizes( $sizes ) {
     return array_merge( $sizes, array(
         'bones-thumb-600' => __('600px by 150px'),
         'bones-thumb-300' => __('300px by 100px'),
-        'custom-thumb' => __('600px by 400px'), // TUOPPI
+        'custom-thumb' => __('600px by 400px'), 
     ) );
 }
 
@@ -118,13 +118,30 @@ new image size.
 */
 
 
-/************* TUOPPI ******************************/
 
 
 
+/* Remove Contact form 7 CSS and JS */
+
+//add_filter( 'wpcf7_load_js', '__return_false' );
+add_filter( 'wpcf7_load_css', '__return_false' );
 
 
+/* Woocommerce stuff */
 
+remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
+remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
+
+add_action('woocommerce_before_main_content', 'warp_wrapper_start', 10);
+add_action('woocommerce_after_main_content', 'warp_wrapper_end', 10);
+
+function warp_wrapper_start() {
+  echo '<div class="content wrap cf">';
+}
+
+function warp_wrapper_end() {
+  echo '</div>';
+}
 
 /* More complex columns shortcode - REMEMBER THE CLEAN FUNCTION IN THE FUTURE */
 

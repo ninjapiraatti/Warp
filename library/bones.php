@@ -170,6 +170,9 @@ THEME SUPPORT
 // Adding WP 3+ Functions & Theme Support
 function bones_theme_support() {
 
+	//Woocommerce support
+	add_theme_support( 'woocommerce' );
+
 	// wp thumbnails (sizes handled in functions.php)
 	add_theme_support( 'post-thumbnails' );
 
