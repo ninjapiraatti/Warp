@@ -22,6 +22,7 @@ body {
 	color: $text-color;
   	-webkit-font-smoothing: antialiased;
   	background-color: $light-gray;
+  	overflow-x: hidden;
   	//For sticky footer
   	display: flex;
   	min-height: 100vh;
@@ -405,7 +406,7 @@ and more scalable.
 			li {
 
 				a {
-					padding: 10px;
+					padding: 10px 10px 10px 30px;
 
 					&:hover,
 					&:focus {}
@@ -427,9 +428,17 @@ and more scalable.
 	/* highlight current page */
 	li.current-menu-item,
 	li.current_page_item,
-	li.current_page_ancestor {
+	li.current_page_ancestor{
 
-		a {}
+		a {
+			background-color: $theme-color;
+			&:hover{
+				color: $white;
+			}
+		}
+		ul li a{
+			background-color: $black;
+		}
 
 	}  /* end current highlighters */
 
