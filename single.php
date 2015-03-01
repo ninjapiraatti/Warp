@@ -45,7 +45,7 @@
 							 * If you want to remove post formats, just delete the post-formats folder and
 							 * replace the function below with the contents of the "format.php" file.
 							*/
-							get_template_part( 'post-formats/format', get_post_format() );
+							get_template_part( 'post-formats/format-single', get_post_format() );
 						?>
 
 					<?php endwhile; ?>
@@ -66,9 +66,11 @@
 
 					<?php endif; ?>
 
+					<?php get_sidebar(); ?>
+
 				</div>
 
-				<?php get_sidebar(); ?>
+				
 
 			</section>
 

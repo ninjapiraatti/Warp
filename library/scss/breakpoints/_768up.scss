@@ -137,7 +137,7 @@ NAVIGATION STYLES
 
 					&:hover,
 					&:focus {
-						background-color: #111;
+						background-color: $theme-color;
 					}
 
 					&:link {}
@@ -203,7 +203,6 @@ SIDEBARS & ASIDES
 	}
 
 	.widget {
-		padding: 0 10px;
 		margin: 2.2em 0;
 
 		ul {
