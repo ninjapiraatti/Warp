@@ -25,9 +25,9 @@
 
 		<div id="container">
 
-			<section class="main-section wrap">
+			<section class="main-section">
 
-				<div class="content m-all s-all t-all d-2of3 dl-3of4 xl-5of7">
+				<div class="content wrap cf">
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
