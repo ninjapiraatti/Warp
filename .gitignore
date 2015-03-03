@@ -68,3 +68,5 @@ library/css/style.css
 
 library/css/style.css
 *.sublime-project
+*.sublime-project
+warp.sublime-project
