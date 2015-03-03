@@ -160,6 +160,7 @@ body {
 		width: 100%;
 		height: auto;
 		-webkit-filter: saturate(20%);
+		-webkit-backface-visibility: hidden;
 		@include transition(all 0.2s ease-in-out);
 		&:hover{
 			-webkit-filter: saturate(100%);
