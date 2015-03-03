@@ -33,7 +33,7 @@ over your project's layout.
 
 // the last column
 .last-col {
-  float: right;
+  float: right !important;
   padding-right: 0 !important;
 }
 

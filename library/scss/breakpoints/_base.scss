@@ -123,8 +123,6 @@ body {
 .main-section{
 	background-color: $light-gray;
 	padding: $mapaL 0;
-	//For sticky footer
-	flex: 1;
 }
 
 .section-style-1{
@@ -197,6 +195,12 @@ body {
 
 }
 
+/* Container */
+
+#container{
+	//For sticky footer
+	flex: 1;
+}
 
 
 /********************
