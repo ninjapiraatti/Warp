@@ -59,14 +59,9 @@ temp/
 
 *.codekit
 *.scssc
-warp.sublime-workspace
-*.sublime-workspace
+
 
 *.sublime-workspace
-
 library/css/style.css
-
-library/css/style.css
+style.css
 *.sublime-project
-*.sublime-project
-warp.sublime-project

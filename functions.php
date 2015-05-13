@@ -119,6 +119,12 @@ new image size.
 
 
 
+/* Add the custom nav walker */
+
+// Register Custom Navigation Walker
+require_once('wp_bootstrap_navwalker.php');
+
+
 
 
 /* Remove Contact form 7 CSS and JS */

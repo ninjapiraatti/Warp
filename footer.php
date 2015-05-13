@@ -26,7 +26,8 @@
 
 			</footer>
 
-		<?php // all js scripts are loaded in library/bones.php ?>
+		<?php // almost js scripts are loaded in library/bones.php. Below is Bootstrap 3 ?>
+		<script type='text/javascript' src="<?php echo get_template_directory_uri(); ?>/library/js/bootstrap.min.js"></script>
 		<?php wp_footer(); ?>
 
 	</body>
