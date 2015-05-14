@@ -41,6 +41,22 @@ $mapaL: 40px;
 $mapaM: 20px;
 $mapaS: 10px;
 
+
+/* Here goes breakpoint variables */
+
+$breakpoint-450: 450px;
+$breakpoint-700: 700px;
+$breakpoint-1000: 1000px;
+$breakpoint-1300: 1300px;
+$breakpoint-1600: 1600px;
+$breakpoint-1900: 2400px;
+
+$breakpoint-450-max: $breakpoint-450 - 1px;
+$breakpoint-700-max: $breakpoint-700 - 1px;
+$breakpoint-1000-max: $breakpoint-1000 - 1px;
+$breakpoint-1300-max: $breakpoint-1300 - 1px;
+$breakpoint-1600-max: $breakpoint-1600 - 1px;
+$breakpoint-1900-max: $breakpoint-1900 - 1px;
 /*
 Here's a great tutorial on how to
 use color variables properly:

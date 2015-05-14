@@ -2,23 +2,13 @@
 
 .navbar {
   position: relative;
-  min-height: 50px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
 }
-@media (min-width: 768px) {
-  .navbar {
-    border-radius: 4px;
-  }
-}
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-700) {
   .navbar-header {
     float: left;
   }
 }
 .navbar-collapse {
-  padding-right: 15px;
-  padding-left: 15px;
   overflow-x: visible;
   -webkit-overflow-scrolling: touch;
   border-top: 1px solid transparent;
@@ -28,12 +18,9 @@
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-700) {
   .navbar-collapse {
     width: auto;
-    border-top: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
   }
   .navbar-collapse.collapse {
     display: block !important;
@@ -44,48 +31,22 @@
   .navbar-collapse.in {
     overflow-y: visible;
   }
-  .navbar-fixed-top .navbar-collapse,
-  .navbar-static-top .navbar-collapse,
-  .navbar-fixed-bottom .navbar-collapse {
-    padding-right: 0;
-    padding-left: 0;
-  }
 }
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px;
 }
-@media (max-device-width: 480px) and (orientation: landscape) {
+@media (max-device-width: $breakpoint-450-max) and (orientation: landscape) {
   .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
     max-height: 200px;
   }
 }
-.container > .navbar-header,
-.container-fluid > .navbar-header,
-.container > .navbar-collapse,
-.container-fluid > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-@media (min-width: 768px) {
-  .container > .navbar-header,
-  .container-fluid > .navbar-header,
-  .container > .navbar-collapse,
-  .container-fluid > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
-  }
-}
+
 .navbar-static-top {
   z-index: 1000;
-  border-width: 0 0 1px;
 }
-@media (min-width: 768px) {
-  .navbar-static-top {
-    border-radius: 0;
-  }
-}
+
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
@@ -93,21 +54,11 @@
   left: 0;
   z-index: 1030;
 }
-@media (min-width: 768px) {
-  .navbar-fixed-top,
-  .navbar-fixed-bottom {
-    border-radius: 0;
-  }
-}
+
 .navbar-fixed-top {
   top: 0;
-  border-width: 0 0 1px;
 }
-.navbar-fixed-bottom {
-  bottom: 0;
-  margin-bottom: 0;
-  border-width: 1px 0 0;
-}
+
 .navbar-brand {
   float: left;
   height: 50px;
@@ -122,23 +73,14 @@
 .navbar-brand > img {
   display: block;
 }
-@media (min-width: 768px) {
-  .navbar > .container .navbar-brand,
-  .navbar > .container-fluid .navbar-brand {
-    margin-left: -15px;
-  }
-}
+
 .navbar-toggle {
   position: relative;
   float: right;
-  padding: 9px 10px;
   margin-top: 8px;
   margin-right: 15px;
   margin-bottom: 8px;
-  background-color: transparent;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
+  
 }
 .navbar-toggle:focus {
   outline: 0;
@@ -152,7 +94,7 @@
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-700) {
   .navbar-toggle {
     display: none;
   }
@@ -165,7 +107,7 @@
   padding-bottom: 10px;
   line-height: 20px;
 }
-@media (max-width: 767px) {
+@media (max-width: $breakpoint-700-max) {
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -188,7 +130,7 @@
     background-image: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-700) {
   .navbar-nav {
     float: left;
     margin: 0;
@@ -212,7 +154,7 @@
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
 }
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-700) {
   .navbar-form .form-group {
     display: inline-block;
     margin-bottom: 0;
@@ -262,7 +204,7 @@
     top: 0;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: $breakpoint-700-max) {
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
@@ -270,7 +212,7 @@
     margin-bottom: 0;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-700) {
   .navbar-form {
     width: auto;
     padding-top: 0;
@@ -310,14 +252,14 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-700) {
   .navbar-text {
     float: left;
     margin-right: 15px;
     margin-left: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-700) {
   .navbar-left {
     float: left !important;
   }
@@ -329,6 +271,8 @@
     margin-right: 0;
   }
 }
+
+/* From here onwards it's just colors
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
@@ -384,7 +328,7 @@
   color: #555;
   background-color: #e7e7e7;
 }
-@media (max-width: 767px) {
+@media (max-width: $breakpoint-700-max) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
   }
@@ -480,7 +424,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #fff;
   background-color: #080808;
 }
-@media (max-width: 767px) {
+@media (max-width: $breakpoint-700-max) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #080808;
   }
@@ -527,7 +471,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
-
+ */
 .nav>li {
   position: relative;
   display: block;
@@ -690,7 +634,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   bottom: 100%;
   margin-bottom: 2px;
 }
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-700) {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;

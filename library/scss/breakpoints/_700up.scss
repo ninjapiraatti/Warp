@@ -12,20 +12,6 @@ come into play. Have fun!
 
 ******************************************************************/
 
-#main-header{
-	-webkit-transform: translate3d(0, 0, 0);
-	-moz-transform: translate3d(0, 0, 0);
-	-ms-transform: translate3d(0, 0, 0);
-	-o-transform: translate3d(0, 0, 0);
-	transform: translate3d(0px, 0, 0);
-	width: 100%;
-	overflow: visible;
-	height: 80px;
-}
-
-#mobile-header{
-	display: none;
-}
 
 .header-narrow{
 	height: 250px;
@@ -35,17 +21,6 @@ come into play. Have fun!
 	height: 500px;
 }
 
-.pushy{
-	top: 0px;
-}
-
-.container-push, .push-push{
-    -webkit-transform: translate3d(0px,0,0);
-    -moz-transform: translate3d(0px,0,0);
-    -ms-transform: translate3d(0px,0,0);
-    -o-transform: translate3d(0px,0,0);
-    transform: translate3d(0px,0,0);
-}
 
 /*********************
 GENERAL STYLES
@@ -57,9 +32,7 @@ body {}
 LAYOUT & GRID STYLES
 *********************/
 
-.wrap, .pushy-open #inner-header{
-	width: 640px;
-}
+
 
 /*********************
 HEADER STYLES
@@ -75,13 +48,13 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
+.navbar{
+	background-color: rgba(0,0,0,0.8);
+}
 
-#main-header{
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-color: rgba(0,0,0,0.5);
-	width: 100%;
+#navbar{
+	float: none;
+	width: auto;
 }
 
 .nav {
