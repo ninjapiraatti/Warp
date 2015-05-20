@@ -61,11 +61,12 @@ NAVIGATION STYLES
 	border: 0;
 	float: right;
 	ul {
-		background:$black;
+		background: $black;
 		margin-top:0;
+		padding: 0;
+		border: none;
 	}
 	li {
-		float: left;
 		position: relative;
 
 		a {
@@ -78,13 +79,13 @@ NAVIGATION STYLES
 			*/
 			&:hover, &:focus {
 				color: $white;
-				background-color: $black;
+				background-color: $theme-color;
 			}
 		}
 
 		&:hover, &:focus {
 			color: $white;
-			background-color: $black;
+			background-color: $theme-color;
 		}
 
 		&:first-child {}
