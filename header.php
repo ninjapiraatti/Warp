@@ -50,8 +50,14 @@
 			<div class="wrap">
 				<div class="navbar-header">
 	        		<div class="menu-btn">
-						<svg viewBox="0 0 128 128" class="icon-menu navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						  	<use xlink:href="#icon-menu"></use>
+						<svg class="icon-menu navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 128 128" enable-background="new 0 0 128 128" xml:space="preserve">
+						<path fill="#FFFFFF" d="M125.5,29c0,2.1-1.7,3.8-3.8,3.8H6.7c-2.1,0-3.8-1.7-3.8-3.8V7.2c0-2.1,1.7-3.8,3.8-3.8h115
+							c2.1,0,3.8,1.7,3.8,3.8V29z"/>
+						<path fill="#FFFFFF" d="M125.5,74.9c0,2.1-1.7,3.8-3.8,3.8H6.7c-2.1,0-3.8-1.7-3.8-3.8V53.1c0-2.1,1.7-3.8,3.8-3.8h115
+							c2.1,0,3.8,1.7,3.8,3.8V74.9z"/>
+						<path fill="#FFFFFF" d="M125.3,121.2c0,2.1-1.7,3.8-3.8,3.8H6.5c-2.1,0-3.8-1.7-3.8-3.8V99.3c0-2.1,1.7-3.8,3.8-3.8h115
+							c2.1,0,3.8,1.7,3.8,3.8V121.2z"/>
 						</svg>
 					</div>
 					<a class="logo navbar-brand" itemscope itemtype="http://schema.org/Organization" href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/icons/logo.svg"></a>

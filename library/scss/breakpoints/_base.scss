@@ -56,12 +56,9 @@ body {
 	top: 22px;
 	z-index: 2;
 	fill: $white;
-	&:hover{
+	cursor: pointer;
+	&:hover path{
 		fill: $theme-color;
-		cursor: pointer;
-	}
-	use{
-		pointer-events: none;
 	}
 }
 
