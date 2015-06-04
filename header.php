@@ -60,7 +60,7 @@
 							c2.1,0,3.8,1.7,3.8,3.8V121.2z"/>
 						</svg>
 					</div>
-					<a class="logo navbar-brand" itemscope itemtype="http://schema.org/Organization" href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/icons/logo.svg"></a>
+					<a class="logo navbar-brand" itemscope itemtype="http://schema.org/Organization" href="<?php echo home_url(); ?>" rel="nofollow"><?php echo file_get_contents("wp-content/themes/Warp/library/images/logo2.svg"); ?></a>
 				</div>
 			<?php
 		           wp_nav_menu( array(
