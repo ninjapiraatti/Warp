@@ -91,10 +91,14 @@ body {
 
 .header-narrow{
 	height: 100px;
+	-webkit-flex: 1 0 auto;
+	flex: 1 0 auto;
 }
 
 .header-hero{
 	height: 200px;
+	-webkit-flex: 1 0 auto;
+	flex: 1 0 auto;
 }
 
 .header-hero, .header-narrow{
