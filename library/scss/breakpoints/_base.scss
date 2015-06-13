@@ -89,12 +89,6 @@ body {
 	}
 }
 
-#mobile-header{
-	.wrap{
-		position: relative;
-	}
-}
-
 .header-narrow{
 	height: 100px;
 }
@@ -387,8 +381,10 @@ and more scalable.
 
 #navbar{
 	float: left;
-	width: 100%;
+	width: 104%;
+	margin-left: -2%;
 	border: none;
+	background-color: rgba(0,0,0,0.8);
 }
 
 .nav {

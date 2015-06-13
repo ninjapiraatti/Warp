@@ -142,11 +142,11 @@ add_action('woocommerce_before_main_content', 'warp_wrapper_start', 10);
 add_action('woocommerce_after_main_content', 'warp_wrapper_end', 10);
 
 function warp_wrapper_start() {
-  echo '<div class="content wrap cf">';
+  echo '<div id="container"><div class="wrap cf">';
 }
 
 function warp_wrapper_end() {
-  echo '</div>';
+  echo '</div></div>';
 }
 
 /* More complex columns shortcode - REMEMBER THE CLEAN FUNCTION IN THE FUTURE */
