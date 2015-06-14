@@ -150,6 +150,66 @@ body {
 	
 }
 
+.fullpage{
+	background-size: cover;
+	-webkit-flex: 1 0 auto;
+	flex: 1 0 auto;
+	background-position: center;
+}
+
+#diagonal-shape{
+	height: 100vh;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 0.7;
+	mix-blend-mode: multiply;
+}
+
+.diagonal-shape{
+  animation: animationFrames ease-in-out 1s;
+  animation-iteration-count: 5;
+  transform-origin: 50% 50%;
+  -ms-animation: animationFrames ease-in-out 1s;
+  -ms-animation-iteration-count: 5;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes animationFrames{
+  0% {
+    transform:  rotate(0deg) ;
+  }
+  100% {
+    transform:  rotate(360deg) ;
+  }
+}
+
+@-ms-keyframes animationFrames {
+  0% {
+    -ms-transform:  rotate(0deg) ;
+  }
+  100% {
+    -ms-transform:  rotate(360deg) ;
+  }
+}
+
+
+
+.diagonal-shape{
+	fill: $theme-color;
+}
+
+/* FULL PAGE TEMPLATE */
+
+.page-template-page-custom{
+	.navbar{
+		background-color: rgba(0,0,0,0.3);
+	}
+	.footer{
+		display: none;
+	}
+}
+
 /* ARTICLE ITEMS */
 
 .item{
@@ -291,6 +351,7 @@ LINK STYLES
 
 a, a:visited {
 	color: $link-color;
+	@include transition(all 0.2s ease-in-out);
 
 	/* on hover */
 	&:hover, &:focus {
@@ -397,7 +458,7 @@ and more scalable.
 
 	li {
 
-		a {
+		a, a:visited {
 			display: block;
 			color: $white;
 			text-decoration: none;
@@ -410,8 +471,8 @@ and more scalable.
 			keep this file as small as possible!
 			*/
 			&:hover, &:focus {
-				color: $link-color;
-				background-color: lighten($black, 20%);
+				color: $white;
+				background-color: $theme-color;
 			}
 		}
 
@@ -456,14 +517,21 @@ and more scalable.
 	li.current_page_item,
 	li.current_page_ancestor{
 
-		a {
-			background-color: $theme-color;
-			&:hover{
+		a, a:visited {
+			//background-color: $theme-color;
+			color: $theme-color;
+			&:hover, &:focus {
 				color: $white;
+				background-color: $theme-color;
 			}
 		}
-		ul li a{
-			background-color: $black;
+		ul li a, ul li a:visited{
+			background-color: lighten($black, 20%);
+			color: $white;
+			&:hover, &:focus {
+				color: $white;
+				background-color: $theme-color;
+			}
 		}
 
 	}  /* end current highlighters */
@@ -1060,6 +1128,8 @@ FOOTER STYLES
 	background-color: $black;
 	-webkit-flex: none;
 	flex: none;
+	text-align: center;
+	color: $light-gray;
 }
 
 	/*
@@ -1086,46 +1156,6 @@ FOOTER STYLES
 
 
 
-/* Site Overlay */
-
-.site-overlay{
-    display: none;
-}
-
-.site-overlay{
-    display: block;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 9998;
-    background-color: rgba(0,0,0,0.5);
-    -webkit-animation: fade 500ms; 
-    -moz-animation: fade 500ms; 
-    -o-animation: fade 500ms;
-    animation: fade 500ms;
-}
-
-@keyframes fade{
-    0%   { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-@-moz-keyframes fade{
-    0%   { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-@-webkit-keyframes fade{
-    0%   { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-@-o-keyframes fade{
-    0%   { opacity: 0; }
-    100% { opacity: 1; }
-}
 
 
 

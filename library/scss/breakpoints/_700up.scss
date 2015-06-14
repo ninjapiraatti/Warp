@@ -90,76 +90,8 @@ NAVIGATION STYLES
 
 		&:first-child {}
 		&:last-child {}
+	}
 
-		/*
-		plan your menus and drop-downs wisely.
-		*/
-		ul.sub-menu,
-		ul.children {
-			margin-top: 0;
-			position: absolute;
-			visibility: hidden;
-			z-index: 8999;
-
-			li {
-
-				a {
-					display: block;
-					width: 200px;
-					height: auto;
-					padding: 10px 20px;
-
-					&:hover,
-					&:focus {
-						background-color: $theme-color;
-					}
-
-					&:link {}
-				}
-
-				&:first-child {}
-
-				&:last-child {
-
-					a {
-					}
-				}
-
-				/*
-				if you need to go deeper, go nuts
-				just remember deeper menus suck
-				for usability. k, bai.
-				*/
-				ul {
-					top:0;
-					left:100%;
-				}
-			}
-
-			/* highlight sub-menu current page */
-			li.current-menu-item,
-			li.current_page_item,
-			li.current_page_ancestor {
-				a {
-					background-color: #111;
-				}
-			}
-		}
-
-		/* showing sub-menus */
-		&:hover > ul {
-			top: auto;
-			visibility:visible;
-		}
-
-	} /* end .menu ul li */
-
-	/* highlight current page */
-	li.current-menu-item,
-	li.current_page_item,
-	li.current_page_ancestor {
-		a {}
-	}  /* end current highlighters */
 
 } /* end .nav */
 
