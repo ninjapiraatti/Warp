@@ -65,3 +65,4 @@ temp/
 library/css/style.css
 style.css
 *.sublime-project
+node_modules
