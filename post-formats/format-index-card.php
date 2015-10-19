@@ -15,17 +15,18 @@
               </a>
 
               <section class="entry-content cf" itemprop="articleBody">
-                <?php the_content(); ?>
-                
+                <?php echo wp_trim_words( get_the_content(), 30, '...' ); ?>
+
+
               </section> <?php // end article section ?>
 
               <footer class="article-footer">
 
-                <?php printf( __( '%1$s', 'bonestheme' ), get_the_category_list(', ') ); ?><?php the_tags( ', ', ', ', '<br />' ); ?> 
+                <?php printf( __( '%1$s', 'bonestheme' ), get_the_category_list(', ') ); ?><?php the_tags( ', ', ', ', '<br />' ); ?>
 
               </footer> <?php // end article footer ?>
 
               <?php comments_template(); ?>
-              
+
 
             </article>

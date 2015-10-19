@@ -14,6 +14,11 @@ gulp.task('clean', function() {
         .pipe(clean());
 });
 
+gulp.task('assets', function() {
+    return gulp.src(['src/**/*', '!src/**/*.js', '!src/**/*.css', '!src/**/*.scss'])
+        .pipe(gulp.dest('library'));
+});
+
 gulp.task('css', function() {
     return gulp.src('src/**/*.scss')
         .pipe(sass({
@@ -23,7 +28,7 @@ gulp.task('css', function() {
             browsers: ['last 2 versions'],
             cascade: false
         }))
-        .pipe(gulp.dest('library'));
+        .pipe(gulp.dest('library/css/'));
 });
 
 

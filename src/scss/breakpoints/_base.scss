@@ -145,7 +145,7 @@ body {
 }
 
 .section-style-3{
-	
+
 }
 
 .fullpage{
@@ -229,6 +229,8 @@ body {
 		-webkit-filter: saturate(20%);
 		-webkit-backface-visibility: hidden;
 		@include transition(all 0.2s ease-in-out);
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
 		&:hover{
 			-webkit-filter: saturate(100%);
 		}
@@ -424,6 +426,21 @@ HEADER STYLES
 
 
 /*********************
+RECIPE STYLES
+*********************/
+
+.ingredients-list{
+	li{
+		list-style-type: none;
+		border-bottom: 1px dotted #ddd;
+		padding: 10px 0;
+		span{
+			width: 70px;
+			display: inline-block;
+		}
+	}
+}
+/*********************
 NAVIGATION STYLES
 *********************/
 
@@ -445,7 +462,7 @@ and more scalable.
 #navbar{
 	float: left;
 	width: 104%;
-	margin-left: -2%;
+	margin-left: -2.05%;
 	border: none;
 	background-color: rgba(0,0,0,0.8);
 }
@@ -460,7 +477,7 @@ and more scalable.
 			display: block;
 			color: $white;
 			text-decoration: none;
-			padding: $mapaS;
+			padding: 12px 2%;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
@@ -767,70 +784,72 @@ PAGE NAVI STYLES
 .wp-prev-next {
 	margin: $mapaM 0;
 }
-	.pagination{
-    text-align: center;
 
-    ul {
-      display: inline-block;
-      background-color: $white;
-      white-space: nowrap;
-      padding: 0;
-      clear: both;
-      border-radius: 3px;
+.pagination{
+  text-align: center;
+	column-span: all;
+  ul {
+    display: inline-block;
+    background-color: $white;
+    white-space: nowrap;
+    padding: 0;
+    clear: both;
+    border-radius: 3px;
+  }
+
+  li {
+    padding: 0;
+    margin: 0;
+    float: left;
+    display: inline;
+    overflow: hidden;
+  }
+
+  a, span {
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    line-height: 1em;
+    font-size: 1em;
+    font-weight: normal;
+    padding: $mapaS;
+    min-width: 1em;
+    display: block;
+    color: $link-color;
+		backface-visibility: hidden;
+
+    &:hover, &:focus {
+    	background-color: $link-color;
+    	color: $white;
     }
+  }
 
-    li {
-      padding: 0;
-      margin: 0;
-      float: left;
-      display: inline;
-      overflow: hidden;
-    }
+  .current{
+  	cursor: default;
+  	color: $text-color;
 
-    a, span {
-      margin: 0;
-      text-decoration: none;
-      padding: 0;
-      line-height: 1em;
-      font-size: 1em;
-      font-weight: normal;
-      padding: $mapaS;
-      min-width: 1em;
-      display: block;
-      color: $link-color;
+  	&:hover, &:focus {
+  		background-color: $white;
+  		color: $text-color;
+  	}
+  }
 
-      &:hover, &:focus {
-      	background-color: $link-color;
-      	color: $white;
-      }
-    }
+} /* end .bones_page_navi */
 
-    .current{
-    	cursor: default;
-    	color: $text-color;
+/* fallback previous & next links */
+.wp-prev-next {
 
-    	&:hover, &:focus {
-    		background-color: $white;
-    		color: $text-color;
-    	}
-    }
+	ul {}
 
-  } /* end .bones_page_navi */
+	.prev-link {
+		float: left;
+	}
 
-	/* fallback previous & next links */
-	.wp-prev-next {
+	.next-link {
+		float: right;
+	}
 
-		ul {}
-
-		.prev-link {
-			float: left;
-		}
-
-		.next-link {
-			float: right;
-		}
-
-	} /* end .wp-prev-next */
+} /* end .wp-prev-next */
 
 /******************************************************************
 COMMENT STYLES
@@ -1151,9 +1170,3 @@ FOOTER STYLES
 
 
 	.copyright {}
-
-
-
-
-
-
