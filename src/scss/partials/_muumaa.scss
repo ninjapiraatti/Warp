@@ -1,0 +1,16 @@
+/*********************
+RECIPE STYLES
+*********************/
+
+.ingredients-list{
+	margin-bottom: 30px;
+	li{
+		list-style-type: none;
+		border-bottom: 1px dotted #ddd;
+		padding: 10px 0;
+		span{
+			width: 70px;
+			display: inline-block;
+		}
+	}
+}
